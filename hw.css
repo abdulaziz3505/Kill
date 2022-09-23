@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 900px;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 10px 30px #0003;
+}
+.photo{
+    min-width: 400px;
+    height: 100%;
+    background: url("./kill-bill-vol-1-2003.jpeg") no-repeat center/cover;
+    border-radius: 12px 0px 0px 12px;
+}
+.text{
+    min-width: 400px;
+    padding: 30px;
+    color: white;
+}
+.b2{
+    margin-left: 26px;
+}
+.b3{
+    margin-left: 26px;
+}
+.h3{
+    color: gold;
+}
+.btn{
+    padding: 9px 30px;
+    margin-top: 12px;
+    padding-right: 1px;
+    border-radius: 5px;
+    border: 1px solid gold;
+    background-color: black;
+    color: white;
+}
+.h5{
+    color: gold;
+}

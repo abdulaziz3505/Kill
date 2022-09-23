@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 900px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+
+    overflow: hidden;
+    transition: 0.8s;
+}
+.card p{
+    margin-left: 10px;
+    padding: 30px;
+}
+.card h1{
+    margin-left: 80px;
+    
+}
+.photo{
+    min-width: 400px;
+    height: 100%;
+    background: url("./pizza-pizza-filled-with-tomatoes-salami-and-olives_140725-1200.jpg") no-repeat center/cover;
+}
